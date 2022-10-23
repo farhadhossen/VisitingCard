@@ -32,7 +32,19 @@
         app:layout_constraintStart_toStartOf="@+id/linearLayout"
         app:layout_constraintTop_toTopOf="@+id/linearLayout" />
 
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:background="@drawable/hexagone_shape"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/linearLayout"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/linearLayout"/>-->
+
     <LinearLayout
+        android:elevation="20dp"
         android:id="@+id/linearLayout3"
         android:layout_width="155dp"
         android:layout_height="150dp"
