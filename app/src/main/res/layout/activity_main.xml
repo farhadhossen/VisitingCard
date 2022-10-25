@@ -26,6 +26,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="60dp"
+        android:orientation="horizontal"
         android:background="@drawable/ic_left_arrow"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout"
@@ -44,15 +45,16 @@
 <!--        app:layout_constraintTop_toTopOf="@+id/linearLayout"/>-->
 
     <LinearLayout
-        android:elevation="20dp"
         android:id="@+id/linearLayout3"
         android:layout_width="155dp"
         android:layout_height="150dp"
         android:layout_marginStart="10dp"
         android:background="@drawable/hexagon_shape_shadow2"
+        android:elevation="20dp"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout4"
         app:layout_constraintStart_toStartOf="@+id/linearLayout"
         app:layout_constraintTop_toTopOf="@+id/linearLayout">
 
@@ -88,13 +90,13 @@
     </LinearLayout>
 
 
-
     <LinearLayout
+        android:id="@+id/linearLayout4"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:orientation="vertical"
         android:gravity="center"
-        android:padding="15dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout"
         app:layout_constraintStart_toEndOf="@+id/linearLayout3"
@@ -102,83 +104,87 @@
 
 
         <LinearLayout
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ic_baseline_location_on_24"/>
+                android:background="@drawable/ic_baseline_location_on_24" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=" Keraniganj, Dhaka"
-                android:textColor="#FFFFFF"/>
+                android:textColor="#FFFFFF" />
 
         </LinearLayout>
 
         <Space
             android:layout_width="0dp"
-            android:layout_height="5dp"/>
+            android:layout_height="5dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ic_baseline_call_24"/>
+                android:background="@drawable/ic_baseline_call_24" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=" 01844991983"
-                android:textColor="#FFFFFF"/>
+                android:textColor="#FFFFFF" />
 
         </LinearLayout>
 
         <Space
             android:layout_width="0dp"
-            android:layout_height="5dp"/>
+            android:layout_height="5dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ic_baseline_email_24"/>
+                android:background="@drawable/ic_baseline_email_24" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=" imfarhad01@gmail.com"
-                android:textColor="#FFFFFF"/>
+                android:textColor="#FFFFFF" />
 
         </LinearLayout>
 
         <Space
             android:layout_width="0dp"
-            android:layout_height="5dp"/>
+            android:layout_height="5dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ic_baseline_web_24"/>
+                android:background="@drawable/ic_baseline_web_24" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=" www.mdfarhad.com"
-                android:textColor="#FFFFFF"
-                />
+                android:textColor="#FFFFFF" />
 
         </LinearLayout>
 
