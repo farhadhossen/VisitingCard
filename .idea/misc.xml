@@ -4,10 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Farhad/StudioProjects/VisitingCard/app/src/main/res/drawable/hexagon_shape_shadow2.xml" value="0.1" />
+        <entry key="..\:/Users/Farhad/StudioProjects/VisitingCard/app/src/main/res/drawable/hexagon_shape_shadow3.xml" value="0.1" />
         <entry key="..\:/Users/Farhad/StudioProjects/VisitingCard/app/src/main/res/drawable/hexagone_shape.xml" value="0.1785" />
         <entry key="..\:/Users/Farhad/StudioProjects/VisitingCard/app/src/main/res/drawable/ic_left_arrow.xml" value="0.1" />
         <entry key="..\:/Users/Farhad/StudioProjects/VisitingCard/app/src/main/res/drawable/ic_right_arrow.xml" value="0.1" />
-        <entry key="..\:/Users/Farhad/StudioProjects/VisitingCard/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Farhad/StudioProjects/VisitingCard/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
       </map>
     </option>
   </component>
