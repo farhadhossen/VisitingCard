@@ -268,6 +268,7 @@
         app:layout_constraintTop_toTopOf="@+id/linearLayout21">
 
         <LinearLayout
+            android:layout_marginRight="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -302,6 +303,7 @@
             android:layout_height="20dp"/>
 
         <LinearLayout
+            android:layout_marginRight="50dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
