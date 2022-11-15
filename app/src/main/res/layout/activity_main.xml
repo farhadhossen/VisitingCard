@@ -112,7 +112,7 @@
 
 
         <LinearLayout
-
+            android:onClick="onLocationClick"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -135,6 +135,8 @@
             android:layout_height="5dp" />
 
         <LinearLayout
+            android:id="@+id/idCall"
+            android:onClick="onCallClick"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -157,6 +159,30 @@
             android:layout_height="5dp" />
 
         <LinearLayout
+            android:onClick="onWhatsAppClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_icons8_whatsapp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 01844991983"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="5dp" />
+
+        <LinearLayout
+            android:onClick="onMailClick"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -179,6 +205,7 @@
             android:layout_height="5dp" />
 
         <LinearLayout
+            android:onClick="onWebClick"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -232,7 +259,7 @@
         android:layout_height="0dp"
         android:layout_marginEnd="60dp"
         android:background="@drawable/ic_right_arrow"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:translationZ="32dp"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout21"
@@ -240,10 +267,69 @@
         app:layout_constraintStart_toStartOf="@+id/linearLayout21"
         app:layout_constraintTop_toTopOf="@+id/linearLayout21">
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="@drawable/qr_farhad"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_icons8_whatsapp" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="1dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_icons8_whatsapp" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="1dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_icons8_whatsapp" />
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="80dp"
+            android:layout_height="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_icons8_whatsapp" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="1dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_icons8_whatsapp" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="1dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_icons8_whatsapp" />
+
+
+        </LinearLayout>
 
         <Space
             android:layout_width="80dp"
@@ -273,7 +359,7 @@
             <ImageView
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:background="@drawable/mypic"/>
+                android:background="@drawable/qr_farhad"/>
 
         </LinearLayout>
 
