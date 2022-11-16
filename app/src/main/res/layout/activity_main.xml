@@ -273,27 +273,30 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <ImageView
+                android:onClick="onWhatsAppClick"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ic_icons8_whatsapp" />
+                android:background="@drawable/ic_icons8_whatsapp2" />
 
             <Space
                 android:layout_width="20dp"
                 android:layout_height="1dp"/>
 
             <ImageView
+                android:onClick="onLinkedInClick"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ic_icons8_whatsapp" />
+                android:background="@drawable/ic_icons8_linkedin" />
 
             <Space
                 android:layout_width="20dp"
                 android:layout_height="1dp"/>
 
             <ImageView
+                android:onClick="onGithubClick"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ic_icons8_whatsapp" />
+                android:background="@drawable/ic_icons8_github" />
 
 
         </LinearLayout>
@@ -308,27 +311,30 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <ImageView
+                android:onClick="onMailClick"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ic_icons8_whatsapp" />
+                android:background="@drawable/ic_icons8_gmail_logo" />
 
             <Space
                 android:layout_width="20dp"
                 android:layout_height="1dp"/>
 
             <ImageView
+                android:onClick="onFacebookClick"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ic_icons8_whatsapp" />
+                android:background="@drawable/ic_icons8_facebook" />
 
             <Space
                 android:layout_width="20dp"
                 android:layout_height="1dp"/>
 
             <ImageView
+                android:onClick="onWebClick"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ic_icons8_whatsapp" />
+                android:background="@drawable/ic_internet_svgrepo_com" />
 
 
         </LinearLayout>
